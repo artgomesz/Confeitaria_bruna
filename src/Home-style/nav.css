@@ -1,0 +1,71 @@
+/* Reset básico */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+.Logo-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; /* Alinha o texto e outros elementos no centro */
+    gap: 10px; /* Espaço entre a logo e o menu */
+    padding: 20px 0;
+}
+
+/* Define o tamanho da logo */
+.Logo {
+    padding-top: 20px;
+    width: 250px;
+    cursor: pointer;
+}
+
+
+/* Estiliza o menu */
+.nav-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-color:transparent;
+}
+
+
+.nav-container ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    color: white;
+    font-size: 20px;
+   
+}
+
+.nav-container ul li{
+    cursor: pointer;
+    transition: calc(0.4s);
+}
+
+.nav-container ul li:hover{
+    transform: scale(1.1);
+    transition: calc(0.4s );
+    color: #ffffff;
+}
+
+@media screen and (max-width: 1020px) {
+    
+    
+
+    /* nav */
+    .nav-container ul li{
+     font-size: 10px;
+    }
+
+    .Logo{
+        width: 150px;
+    }
+}
+

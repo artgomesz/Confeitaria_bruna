@@ -1,0 +1,265 @@
+.Home-content {
+    display: flex;
+    justify-content: center;    
+    height: 700px;        
+
+}
+
+.animated-text {
+  
+    
+    color: white;             /* Cor do texto */
+    font-size: 50px;          /* Ajuste o tamanho da fonte conforme necessário */
+    width:990px;  
+    padding-top: 40px;           /* Garante que o texto ocupe a largura disponível */
+}
+
+.cakes-container {
+    display: flex;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.h1{
+   display: flex;
+   
+  
+   color: rgb(0, 0, 0);
+    font-size: 50px;
+}
+
+.cake-txt {
+    max-width: 700px; 
+    word-wrap: break-word; 
+    overflow-wrap: break-word;
+    font-size: 30px; 
+    padding-left: 10px;
+}
+
+.cakes-container > img {
+    width: 100px;
+    height: 100px;
+}
+
+
+.txt{
+    font-size: 50px;
+}
+
+button {
+    background-color: #ffffff; 
+    width: 150px;
+    padding: 15px 32px; 
+    font-size: 16px; 
+    border: none; 
+    border-radius: 2px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
+
+  }
+  
+
+
+
+ 
+
+
+.doces-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.doces-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.txt-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.doce-txt{
+    font-size: 40px;
+    font-weight: bold;
+  
+}
+
+
+.txt-doce{
+    color: white;
+    font-size: 45px;
+    max-width: 800px;
+}
+
+
+.salgados-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10rem;
+}
+
+.salgados-content{
+    display: flex;
+    align-items: center;
+
+}
+
+.txt-container{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.salgado-txt{
+    font-size: 45px;
+    font-weight: bold;
+    
+}
+
+
+.txt-salgado{
+    color: white;
+    font-size: 45px;
+    max-width: 750px;
+}
+
+.Sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+.sobre-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 950px;
+}
+
+.Sobre-title {
+    font-size: 50px;
+   
+}
+
+.Sobre-txt{
+    font-size: 40px;
+    color: white;
+}
+
+
+@media (max-width: 768px) {
+    .Home-container {
+        display: block;  /* Deixe os elementos empilhados para telas menores */
+       
+      }
+    
+      .Home-content {
+        text-align: center;
+        height: 400px;
+      }
+  
+      .txt{
+          font-size: 10px;
+      }
+  
+      .h1{
+          font-size: 12px;
+      }
+    
+      .animated-text {
+          font-size: 20px;
+          padding: 20px;
+      }
+    
+    
+      /* Ajuste o tamanho das imagens */
+      .cakes-container img,
+      .doces-content img,
+      .salgados-container img {
+        width: 100%;
+        height: auto;
+     
+      }
+      .cakes-container,
+      .salgados-container,
+      .Sobre {
+          padding: 0;
+          padding-top: 1px;
+          padding-bottom: 1px;
+      }
+      
+
+      .doces-container{
+        padding: 0;
+        padding-top: 1px;
+        padding-bottom: 1px;
+      }
+    
+      .txt-container {
+        text-align: center;
+      }
+  
+      .doce-txt{
+          font-size: 12px;
+      }
+  
+      .txt-doce{
+          font-size: 10px;
+      }
+  
+      .salgado-txt{
+          font-size: 14px;
+      }
+
+      .cakes-container{
+        padding-bottom: 1px;
+        padding-top: 1px;
+      }
+  
+  
+      .salgados-container{
+          display: block;
+          padding-bottom: 1px;
+      }
+  
+      .txt-salgado{
+          font-size: 10px;
+      }
+  
+      .Sobre-title{
+          font-size: 14px;
+          
+      }
+
+      .Sobre{
+        padding-top: 5px;
+        padding-bottom: 10px;
+      }
+  
+      .Sobre-txt{
+          font-size: 15px;
+          width: 15rem;
+      }  
+  }
+
+
+
+
+
+
+
+  

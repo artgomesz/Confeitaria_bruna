@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Fugaz+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lexend:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+  font-family: "Fugaz One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+ 
+  font-weight: 700;
+  
+}
+
+.Body{
+  background: linear-gradient(to bottom,#C599B6 0% ,#E6B2BA 25%,#FAD0C4  50%,#FF9494 100%);
+  width: auto;
+  height: auto;
+
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+

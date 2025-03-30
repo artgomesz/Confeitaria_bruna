@@ -1,0 +1,62 @@
+.cardapios-img img{
+  width: 600px;
+  height: 800px;
+  border-radius: 40px;
+}
+
+.cardapios-img{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 30px;
+ width: 1500px;
+ height: 1000px;
+ background-color: transparent;
+ box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3); 
+ backdrop-filter: blur(10px);
+ border-radius: 40px;
+}
+
+.cardapio-content{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+.cardapio-title{
+    font-size: 50px;
+}
+
+Button{
+   background-color: rgb(226, 202, 202);
+}
+
+@media (max-width: 768px) {
+
+  .cardapios-img {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: 1000px;
+    
+  }
+
+  .cardapios-img img{
+   
+    width: 300px;
+    height: 500px;
+    padding: 10px;
+  }
+
+  .Button-cardapio {
+    width: 100%;
+    
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+  }
+}
