@@ -1,26 +1,43 @@
 import '../Home-style/Home.css'
 import '../App.css'
 
+//Bolos
+import Bolo1 from '../assets/Bolos/Bolo.jpg'
+import Bolo2  from '../assets/Bolos/bolo2.jpg'
+import Bolo3 from '../assets/Bolos/Bolo3.jpg'
+
+//doces
+import coco from '../assets/doces/coco.jpg'
+import moca from '../assets/doces/leite-moca.jpg'
+import Nutela  from '../assets/doces/Nuttela.jpg'
+import Oreo from '../assets/doces/Oreo.jpg'
+
+//salgados
+import Salgado1 from '../assets/Salgados/Salgado1.jpg'
+import Salgado2  from '../assets/Salgados/salgado2.jpg'
+import Salgado3  from '../assets/Salgados/salgado3.jpg'
+
+
 
 
 const imagensBolo=[
-  {src: '../src/assets/Bolos/Bolo.jpg', titulo: "Bolo de limão", descricao: "Delicioso bolo de limão."},
-  {src: '../src/assets/Bolos/Bolo2.jpg', titulo:  'Bolo de morango', descricao: "Camadas de morango e creme."},
-  {src: '../src/assets/Bolos/Bolo3.jpg', titulo: 'Bolo de aniversário ', descricao: 'Maravilhoso bolo de aniversário.'}
+  {src: Bolo1, titulo: "Bolo de limão", descricao: "Delicioso bolo de limão."},
+  {src: Bolo2, titulo:  'Bolo de morango', descricao: "Camadas de morango e creme."},
+  {src: Bolo3, titulo: 'Bolo de aniversário ', descricao: 'Maravilhoso bolo de aniversário.'}
 ]
 
 const imagensDoces=[
-  {src: '../src/assets/doces/coco.jpg', titulo: 'Doce de coco', descricao: 'Bolo de coco delicioso.'},
-  {src: '../src/assets/doces/Nuttela.jpg', titulo: 'doce de nuttela', descricao: 'Doce cremoso de nuttela.'},
-  {src: '../src/assets/doces/Oreo.jpg', titulo: 'doce de oreo', descricao: 'Doce de oreo gourmet.'},
-  {src: '../src/assets/doces/leite-moca.jpg', titulo: 'Doce de leite moça', descricao: 'Doce de leite moça gourmet.'}
+  {src: coco, titulo: 'Doce de coco', descricao: 'Bolo de coco delicioso.'},
+  {src: Nutela, titulo: 'doce de nuttela', descricao: 'Doce cremoso de nuttela.'},
+  {src: Oreo, titulo: 'doce de oreo', descricao: 'Doce de oreo gourmet.'},
+  {src: moca, titulo: 'Doce de leite moça', descricao: 'Doce de leite moça gourmet.'}
 
 ]
 
 const imagensSalgados=[
-  {src: '../src/assets/Salgados/Salgado1.jpg', titulo: 'Bolinha de  queijo ', descricao: 'Bolinha de queijo cremosa.'},
-  {src: '../src/assets/Salgados/salgado2.jpg', titulo: 'Risole',descricao: 'Risole de presunto e queijo'},
-  {src: '../src/assets/Salgados/salgado3.jpg', titulo: 'Coxinha',descricao:'Coxinha de frango deliciosa.'}
+  {src: Salgado1, titulo: 'Bolinha de  queijo ', descricao: 'Bolinha de queijo cremosa.'},
+  {src: Salgado2, titulo: 'Risole',descricao: 'Risole de presunto e queijo'},
+  {src: Salgado3, titulo: 'Coxinha',descricao:'Coxinha de frango deliciosa.'}
 ]
 
 import Nav from '../Home-components/nav'
