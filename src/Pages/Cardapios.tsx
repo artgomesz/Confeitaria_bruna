@@ -8,8 +8,7 @@ import '../App.css'
 
 import cardapio1 from '../assets/Cardapios/cardapio-bolo.jpg'
 import cardapio2 from '../assets/Cardapios/Cardapio-doces.png'
-import { useEffect } from "react";
-import { useLocation } from "react-router-dom";
+
 
 function Cardapio(){
 
