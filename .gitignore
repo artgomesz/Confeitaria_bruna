@@ -12,6 +12,9 @@ dist
 dist-ssr
 *.local
 
+!dist/assets/index-BezzgwMk.css
+!dist/assets/index-GEVfWAD_.js
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
