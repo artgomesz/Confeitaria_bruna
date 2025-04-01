@@ -1,0 +1,44 @@
+.Sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    
+}
+
+.sobre-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1000px;
+    text-align: center;
+}
+
+.Sobre-title {
+    font-size: 60px;
+   
+}
+
+.Sobre-txt{
+    font-size: 60px;
+    color: white;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .Sobre-title{
+        font-size: 30px;
+    }
+
+    .Sobre{
+      height: 700px;
+      padding-bottom: 150px;
+    }
+
+    .Sobre-txt{
+        font-size: 25px;
+        width: 20rem;
+    }  
+}

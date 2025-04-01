@@ -20,7 +20,7 @@ function Nav(){
                 <li><a href="#" onClick={() => scrollToSection("Bolos")}>Bolos</a></li>
                 <li><a href="#" onClick={() => scrollToSection("doces")}>Doces</a></li>
                 <li><a href="#" onClick={() => scrollToSection("Salgados")}>Salgados</a></li>
-                <li><a href="#" onClick={() => scrollToSection("Sobre")}>Sobre</a></li>
+                <li><Link to= '/Sobre'>Sobre</Link></li>
             </ul>
         </div>
         </div>

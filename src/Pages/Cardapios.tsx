@@ -23,7 +23,7 @@ function Cardapio(){
         <img src={cardapio1} alt="Cardapio de bolos" />
         <img src={cardapio2} alt="Cardapio de doces e bolos" />
         </div>
-        <a href="https://www.instagram.com/confeitaria_da_bruna_/">
+        <a href="https://linktr.ee/Confeitaria_Bruna">
         <button className="Button-cardapio">Peça já!</button>
         </a>
         </div>

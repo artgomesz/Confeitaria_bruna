@@ -13,12 +13,12 @@
     display: flex;
     flex-direction: column; 
     align-items: center; 
-    text-align: center; /* Alinha o texto e outros elementos no centro */
-    gap: 10px; /* Espaço entre a logo e o menu */
+    text-align: center; 
+    gap: 10px; 
     padding: 20px 0;
 }
 
-/* Define o tamanho da logo */
+
 .Logo {
     padding-top: 20px;
     width: 250px;
@@ -26,7 +26,7 @@
 }
 
 
-/* Estiliza o menu */
+
 .nav-container {
     display: flex;
     justify-content: center; 
@@ -59,7 +59,7 @@
     
     
 
-    /* nav */
+   
     .nav-container ul li{
      font-size: 10px;
     }

@@ -27,7 +27,7 @@ const imagensBolo=[
 ]
 
 const imagensDoces=[
-  {src: coco, titulo: 'Doce de coco', descricao: 'Bolo de coco delicioso.'},
+  {src: coco, titulo: 'Doce de coco', descricao: 'doce de coco delicioso.'},
   {src: Nutela, titulo: 'doce de nuttela', descricao: 'Doce cremoso de nuttela.'},
   {src: Oreo, titulo: 'doce de oreo', descricao: 'Doce de oreo gourmet.'},
   {src: moca, titulo: 'Doce de leite moça', descricao: 'Doce de leite moça gourmet.'}
@@ -46,6 +46,7 @@ import Text from '../Home-components/text'
 import AnimatedButton from '../Home-components/AnimatedButton'
 
 import { Carousel } from '../Home-components/Carousel'
+
 
 
 
@@ -99,13 +100,7 @@ function Home() {
         </div>
       </section>
 
-      <section className='Sobre' id='Sobre' >
-        <div className='sobre-content'>
-          <Title className='Sobre-title' text='Sobre'/>
-          <h1 className='Sobre-txt'>Bruna é uma confeiteira com mais de 10 anos no mercado de confeitaria,experiência com confecção de bolos,kit festas,doces gourmets e tradicionais,deixando momentos especiais com o melhor sabor!</h1>
-        </div>
-      </section>
-   
+  
      
    
     </div>
